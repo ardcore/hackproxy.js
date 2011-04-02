@@ -1,7 +1,7 @@
 Usage flow:
 	1. run node hackproxy.js
 	2. visit 127.0.0.1:8080
-	3. type "http://github.com" in the input field, hit the button
+	3. type 'http://github.com' in the input field, hit the button
 	4. in hackproxy's dir/stored/github.com/ you'll have static files 
 	   downloaded - edit them however you want.
 	5. switch back to your browser, hit f5, watch your changes 
