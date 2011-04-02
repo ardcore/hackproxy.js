@@ -18,3 +18,4 @@ TODO:
 	3. fix regexp's cause they suck now
 	4. fix other things that suck now
 
+important: include protocol! (http://www.foo.com = good, www.foo.com = bad)
