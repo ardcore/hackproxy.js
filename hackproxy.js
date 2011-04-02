@@ -19,7 +19,7 @@
 
 	// check params, display help, assign port (default: 8080)
 	var param = process.argv[2];
-	if (param == ("help"||"--help"||"-h")) {
+	if (param == "help" || param == "--help" || param == "-h") {
 		console.log("Usage: hackproxy.js [port]");
 		process.exit();
 	} else if (parseInt(param,10) == param) {
